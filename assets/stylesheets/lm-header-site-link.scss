@@ -1,0 +1,29 @@
+.lm-header-site-link {
+
+  color: #66c05d !important;
+  font-size: 11px;
+  font-family: "HelveticaNeueCyr-Medium", Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 0 28px 12px 17px;
+  border: solid 2px #eeeeee;
+  transition: border 0.3s ease-out;
+  margin-left: 20px;
+  &:hover { border-color: #66c05d; }
+
+  .logo {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    margin-right: 12px;
+    background: transparent image-url('images/lm-header-site-link-logo.png') no-repeat center center;
+    transform: translateY(8px);
+  }
+
+  .accent { text-decoration: underline; }
+
+  .fa-angle-right {
+    font-size: 24px;
+    transform: translate(15px, 4px);
+  }
+
+}
